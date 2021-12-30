@@ -1,0 +1,98 @@
+html{
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+header>h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-weight: 200;
+    font-size: 50px;
+}
+header{
+
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    /*we can use rem instead of px
+    1 rem is equal to font size which i am using in that scope 
+    */
+
+}
+
+nav{
+    width: 15rem;
+    position: relative;
+    /*if position relative then u can move any where widget*/
+    top: 2rem;
+    right: 3rem; /*3rem from right to get space of 3rem from right*/
+
+
+
+
+
+}
+
+nav>ul{
+   
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.main_image{
+  /**
+  use view port width : it will automatically take the width according to ur screen size 
+
+  vw- viewport width
+  vh -- viewport height
+  **/
+
+  width: 100vw; /**100 percentage view port width*/
+
+  
+  
+
+}
+article{
+    display: flex;  /*it arrange things horizontally*/
+    
+}
+
+
+.content{
+    text-align: center;
+    margin-right: 2rem;
+    padding: 0rem
+    /**padding make distance from parent widget **/
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    display:  flex; 
+    justify-content: center;  /**arrange things horizontally*/
+    align-items: center; /***arrange vertically**/
+}
+
+a{
+    /**for anchor tag*/
+    text-decoration: none;
+    color:black;
+   
+    
+}
+
+/* putting hover property to a anchor tag itself*/
+/* these properties are psuedo classes in css*/
+a:hover{
+    color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+
+}
+
+
+
